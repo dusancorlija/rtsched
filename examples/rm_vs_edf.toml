@@ -1,0 +1,12 @@
+# Two tasks at U = 0.971: above the RM bound and not RM-schedulable,
+# but fine under EDF.
+
+[[task]]
+name = "fast"
+wcet = 2
+period = 5
+
+[[task]]
+name = "slow"
+wcet = 4
+period = 7

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="11">
+<rect width="1000" height="340" fill="#fff"/>
+<text x="110" y="26" font-size="15" font-weight="600" fill="#15171a">Same two tasks at U = 0.971: RM misses, EDF does not</text>
+<text x="110" y="58" font-size="13" font-weight="600" fill="#15171a">Rate monotonic</text>
+<text x="980" y="58" text-anchor="end" fill="#7a7e85"><tspan fill="#d93025" font-weight="600">1 deadline miss</tspan></text>
+<line x1="110.0" x2="110.0" y1="78" y2="146" stroke="#eceae6"/>
+<text x="110.0" y="160" text-anchor="middle" fill="#7a7e85">0</text>
+<line x1="234.3" x2="234.3" y1="78" y2="146" stroke="#eceae6"/>
+<text x="234.3" y="160" text-anchor="middle" fill="#7a7e85">5</text>
+<line x1="358.6" x2="358.6" y1="78" y2="146" stroke="#eceae6"/>
+<text x="358.6" y="160" text-anchor="middle" fill="#7a7e85">10</text>
+<line x1="482.9" x2="482.9" y1="78" y2="146" stroke="#eceae6"/>
+<text x="482.9" y="160" text-anchor="middle" fill="#7a7e85">15</text>
+<line x1="607.1" x2="607.1" y1="78" y2="146" stroke="#eceae6"/>
+<text x="607.1" y="160" text-anchor="middle" fill="#7a7e85">20</text>
+<line x1="731.4" x2="731.4" y1="78" y2="146" stroke="#eceae6"/>
+<text x="731.4" y="160" text-anchor="middle" fill="#7a7e85">25</text>
+<line x1="855.7" x2="855.7" y1="78" y2="146" stroke="#eceae6"/>
+<text x="855.7" y="160" text-anchor="middle" fill="#7a7e85">30</text>
+<line x1="980.0" x2="980.0" y1="78" y2="146" stroke="#eceae6"/>
+<text x="980.0" y="160" text-anchor="middle" fill="#7a7e85">35</text>
+<text x="100" y="101" text-anchor="end" fill="#15171a">fast</text>
+<line x1="110" x2="980" y1="108" y2="108" stroke="#eceae6"/>
+<text x="100" y="131" text-anchor="end" fill="#15171a">slow</text>
+<line x1="110" x2="980" y1="138" y2="138" stroke="#eceae6"/>
+<rect x="110.00" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="159.71" y="122" width="74.57" height="16" fill="#e2531a"/>
+<rect x="234.29" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="284.00" y="122" width="24.86" height="16" fill="#e2531a"/>
+<rect x="308.86" y="122" width="49.71" height="16" fill="#e2531a"/>
+<rect x="358.57" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="408.29" y="122" width="49.71" height="16" fill="#e2531a"/>
+<rect x="458.00" y="122" width="24.86" height="16" fill="#e2531a"/>
+<rect x="482.86" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="532.57" y="122" width="74.57" height="16" fill="#e2531a"/>
+<rect x="607.14" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="656.86" y="122" width="74.57" height="16" fill="#e2531a"/>
+<rect x="731.43" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="781.14" y="122" width="24.86" height="16" fill="#e2531a"/>
+<rect x="806.00" y="122" width="49.71" height="16" fill="#e2531a"/>
+<rect x="855.71" y="92" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="905.43" y="122" width="49.71" height="16" fill="#e2531a"/>
+<path d="M110.0,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M110.0,138 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M280.0,118 l8,8 m0,-8 l-8,8" stroke="#d93025" stroke-width="2"/>
+<path d="M234.3,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M284.0,138 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M358.6,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M458.0,138 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M482.9,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M607.1,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M632.0,138 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M731.4,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M806.0,138 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M855.7,108 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<text x="110" y="190" font-size="13" font-weight="600" fill="#15171a">Earliest deadline first</text>
+<text x="980" y="190" text-anchor="end" fill="#7a7e85"><tspan fill="#2f9e6e" font-weight="600">all deadlines met</tspan></text>
+<line x1="110.0" x2="110.0" y1="210" y2="278" stroke="#eceae6"/>
+<text x="110.0" y="292" text-anchor="middle" fill="#7a7e85">0</text>
+<line x1="234.3" x2="234.3" y1="210" y2="278" stroke="#eceae6"/>
+<text x="234.3" y="292" text-anchor="middle" fill="#7a7e85">5</text>
+<line x1="358.6" x2="358.6" y1="210" y2="278" stroke="#eceae6"/>
+<text x="358.6" y="292" text-anchor="middle" fill="#7a7e85">10</text>
+<line x1="482.9" x2="482.9" y1="210" y2="278" stroke="#eceae6"/>
+<text x="482.9" y="292" text-anchor="middle" fill="#7a7e85">15</text>
+<line x1="607.1" x2="607.1" y1="210" y2="278" stroke="#eceae6"/>
+<text x="607.1" y="292" text-anchor="middle" fill="#7a7e85">20</text>
+<line x1="731.4" x2="731.4" y1="210" y2="278" stroke="#eceae6"/>
+<text x="731.4" y="292" text-anchor="middle" fill="#7a7e85">25</text>
+<line x1="855.7" x2="855.7" y1="210" y2="278" stroke="#eceae6"/>
+<text x="855.7" y="292" text-anchor="middle" fill="#7a7e85">30</text>
+<line x1="980.0" x2="980.0" y1="210" y2="278" stroke="#eceae6"/>
+<text x="980.0" y="292" text-anchor="middle" fill="#7a7e85">35</text>
+<text x="100" y="233" text-anchor="end" fill="#15171a">fast</text>
+<line x1="110" x2="980" y1="240" y2="240" stroke="#eceae6"/>
+<text x="100" y="263" text-anchor="end" fill="#15171a">slow</text>
+<line x1="110" x2="980" y1="270" y2="270" stroke="#eceae6"/>
+<rect x="110.00" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="159.71" y="254" width="99.43" height="16" fill="#e2531a"/>
+<rect x="259.14" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="308.86" y="254" width="99.43" height="16" fill="#e2531a"/>
+<rect x="408.29" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="458.00" y="254" width="24.86" height="16" fill="#e2531a"/>
+<rect x="482.86" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="532.57" y="254" width="74.57" height="16" fill="#e2531a"/>
+<rect x="607.14" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="656.86" y="254" width="99.43" height="16" fill="#e2531a"/>
+<rect x="756.29" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<rect x="806.00" y="254" width="99.43" height="16" fill="#e2531a"/>
+<rect x="905.43" y="224" width="49.71" height="16" fill="#3d6fd8"/>
+<path d="M110.0,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M110.0,270 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M234.3,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M284.0,270 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M358.6,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M458.0,270 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M482.9,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M607.1,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M632.0,270 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M731.4,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M806.0,270 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<path d="M855.7,240 v-20 m-3,4 l3,-4 l3,4" stroke="#7a7e85" fill="none" stroke-width="1"/>
+<text x="110" y="330" fill="#7a7e85">↑ release   <tspan fill="#d93025">✕ deadline miss</tspan></text>
+</svg>

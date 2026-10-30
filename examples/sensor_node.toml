@@ -1,0 +1,33 @@
+# A sensor node on a Cortex-M class MCU. Times in microseconds.
+# SPI is shared by the control loop, the CAN controller and telemetry;
+# the flash log has its own lock.
+
+[[task]]
+name = "adc_dma"
+wcet = 150
+period = 1000
+
+[[task]]
+name = "control"
+wcet = 900
+period = 5000
+critical_sections = [{ resource = "spi", length = 200 }]
+
+[[task]]
+name = "can_tx"
+wcet = 1200
+period = 10000
+deadline = 4000
+critical_sections = [{ resource = "spi", length = 300 }]
+
+[[task]]
+name = "telemetry"
+wcet = 4000
+period = 50000
+critical_sections = [{ resource = "spi", length = 1500 }]
+
+[[task]]
+name = "logger"
+wcet = 9000
+period = 100000
+critical_sections = [{ resource = "flash", length = 2500 }]

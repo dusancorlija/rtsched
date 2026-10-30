@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install (no dependencies)
+        run: pip install .
+      - name: Unit and property tests
+        run: python -m unittest discover -s tests -t . -v
+      - name: CLI on the examples
+        run: |
+          rtsched analyze examples/sensor_node.toml --policy dm
+          rtsched analyze examples/rm_vs_edf.toml --policy edf
+          rtsched simulate examples/sensor_node.toml --policy dm --svg sensor.svg --window 0:20000 --unit 0.001 --unit-name " ms"
